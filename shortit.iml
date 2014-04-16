@@ -21,6 +21,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 6.0" level="application_server_libraries" />
     <orderEntry type="library" name="lib_shortit" level="project" />
+    <orderEntry type="library" name="lib_shortit" level="project" />
   </component>
 </module>
 

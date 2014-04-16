@@ -47,8 +47,10 @@ ZeroClipboard.moviePath = '${base }/js/ZeroClipboard.swf';
       }
       init();
       var img = document.createElement('img');
-      img.src = 'https://chart.googleapis.com/chart?chs=72x72&cht=qr&choe=UTF-8&chl=${imageUrl }';
-      $('urlImage').appendChild(img);
+
+      <%--img.src = 'https://chart.googleapis.com/chart?chs=72x72&cht=qr&choe=UTF-8&chl=${imageUrl }';--%>
+//      $('urlImage').appendChild(img);
+
     </script>
 </body>
 </html>

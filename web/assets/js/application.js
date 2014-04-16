@@ -20,7 +20,7 @@ function footer()
 
     $unstyledUl
             .append($('<li></li>').append($firstUlFooterLinks))
-            .append($('<li class="footer-links" style="display: none" id="site-qrcode"><img src="https://chart.googleapis.com/chart?chs=72x72&amp;cht=qr&amp;choe=UTF-8&amp;chl=http%3A%2F%2Fshaolong.me%2F"></li>'))
+//            .append($('<li class="footer-links" style="display: none" id="site-qrcode"><img src="https://chart.googleapis.com/chart?chs=72x72&amp;cht=qr&amp;choe=UTF-8&amp;chl=http%3A%2F%2Fshaolong.me%2F"></li>'))
             .append($('<li class="footer-links"><img src="/assets/img/zz.png" /></li>'))
 
     $('<div class="container"></div>').append($unstyledUl).appendTo($('.footer'));
